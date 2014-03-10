@@ -33,6 +33,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# for serving static assets on heroku
 gem 'rails_serve_static_assets'
 
 # Use ActiveModel has_secure_password
